@@ -1,4 +1,3 @@
-# AlgoritmodeDijkstra
 
 # Algoritmo de Dijkstra - Implementación en C++ y Python
 
