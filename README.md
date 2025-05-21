@@ -70,7 +70,22 @@ Cada archivo `.json` representa un grafo dirigido y ponderado, con el siguiente 
 - Cada valor es una lista de pares `[vecino, peso]` que representan las aristas salientes.
 
 ---
+## 📦 Sobre json.hpp
+Este proyecto utiliza la biblioteca json.hpp (de nlohmann/json) para manipular archivos .json en C++. Esta biblioteca permite:
 
+Leer archivos .json
+
+Convertir datos JSON a estructuras de C++ (map, vector, etc.)
+
+Escribir archivos JSON desde C++
+
+### 🔧 Cómo se usa en C++
+#### C++
+#include "json.hpp"
+
+using json = nlohmann::json;
+
+Solo necesitas descargar el archivo json.hpp desde el repositorio oficial y colocarlo en el mismo directorio que tu código C++.
 ## 📊 Comparación de Rendimiento
 
 | Nodos  | Python (s) | C++ (s) | Diferencia |
